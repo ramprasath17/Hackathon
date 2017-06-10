@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -255,6 +256,7 @@
     <Content Include="Sample3\main.js" />
     <Content Include="Sample3\styles\base.css" />
     <Content Include="Sample3\styles\project.css" />
+    <Content Include="Sample\CollectsensorData.html" />
     <Content Include="Sample\SafetyManager.html" />
     <Content Include="Sample\PHPOCChart.html" />
     <Content Include="Sample\dcsFront.html" />
@@ -278,6 +280,7 @@
     <Content Include="Sample3\styles\.DS_Store" />
     <Content Include="Sample3\styles\.sass-cache\aafd5f3c06b03e36513c29875de479463c446744\base_sass.scssc" />
     <Content Include="Sample3\bar-data.csv" />
+    <Content Include="Sample\data.csv" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Sample\app.js" />
     <Content Include="Sample\index.html" />
